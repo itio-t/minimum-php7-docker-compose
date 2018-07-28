@@ -1,0 +1,9 @@
+version: "2"
+services:
+  php-app:
+    build:
+      context: .
+      dockerfile: Dockerfile-php
+    volumes:
+      - ./home:/home
+    tty: true
