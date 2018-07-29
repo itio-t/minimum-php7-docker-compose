@@ -1,2 +1,2 @@
 #!/bin/sh
-docker-compose exec php-app bash
+docker-compose exec php-app sh
